@@ -11,7 +11,7 @@ body{
     width: auto;
 }
 
-.home {
+.home, .about {
     background: url(../images/bg-home.jpg) no-repeat scroll center top #000000;
     margin: 0;
     overflow: hidden;
@@ -247,8 +247,123 @@ body{
     outline: none;
 }
 
+.about__sup{
+    min-height: 455px;
+    background: url("./images/bg-about.jpg")no-repeat center top #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
 
-.home__footer{
+.about__sup>h1{
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size:36px;
+    line-height: 36px;
+    margin: 0 auto 87px;
+}
+
+.about__sup>h2{
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size:32px;
+    line-height: 32px;
+    text-align:center;
+    text-transform:uppercase;
+    margin: 0 auto 24px;
+    width:80%
+}
+
+.about__sup>p{
+    font-weight: normal;
+    font-size:18px;
+    line-height: 24px;
+    text-align:center;
+    margin: 0 auto 24px;
+    width:80%
+}
+
+.about__sup>p>a{
+    color:white;
+}
+
+.about__medio{
+    min-height: 253px;
+    background-color: #620031;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center   
+}
+
+.about__medioTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex:0.7;
+}
+
+.about__medioTexto>h2, .about__infTexto>h2, .about__details>h2{
+    color: #A3A3A3;
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    font-size:23px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin:18px 0 26px;
+}
+
+.about__medioTexto>p>a{
+    color:white;
+}
+
+.about__inf{
+    min-height: 366px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #000000;
+    color: white;
+}
+
+.about__inf>img{
+    flex:0.4;
+    object-fit: contain;
+}
+
+.about__infTexto{
+    flex:0.6;
+    
+}
+.about__infTexto>p{
+    width: 80%;
+}
+
+.about__details{
+    min-height: 234px;
+    background-color: #3c0f38;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__details>p{
+    width: 80%;
+}
+
+.about__details >p >a{
+    color:white;
+}
+
+
+.footer{
     width:auto;
     height: 84px;
     color:white;
@@ -258,7 +373,7 @@ body{
     align-items: center;
 }
 
-.home__footerSocial{
+.footerSocial{
     display: flex;
     justify-content: center;
     align-items:center;
@@ -266,7 +381,7 @@ body{
     height: 36px;
 }
 
-.home__footerLeft>h1{
+.footerLeft>h1{
     
     font-family: 'Audiowide', cursive;
     font-weight: lighter;
