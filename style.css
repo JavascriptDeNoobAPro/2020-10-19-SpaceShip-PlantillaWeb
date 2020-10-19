@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   /*  position: relative; */
+    width: auto;
+}
+
+.home {
+    background: url(../images/bg-home.jpg) no-repeat scroll center top #000000;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+    z-index: 3;
+}
+
+.home__header {
+    background: url(../images/bg-transparent1.png) repeat;
+    min-height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__navigation > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width:80%;
+}
+
+.home__navigation > ul >li{
+    margin-left: 24px;
+}
+
+.home__navigation > ul >li>a{
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 59px;
+    margin: 0;
+    min-height: 60px;
+    padding: 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    text-decoration: none;
+    outline: none;
+}
+
+.home__navigationSelected {
+    background-color: #000000;
+    color: #a3a3a3;
+}
+
+.home__main {
+    min-height: 1307.99px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.home__mainSoyuz{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.home__mainSoyuzText {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__mainSoyuzText > h1{
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.home__mainSoyuzText > h2{
+    color: white;
+    font-family: 'Arial';
+    font-size: 43px;
+    font-weight: normal;
+    line-height: 43px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.home__mainSoyuzText > a{
+    background-color: #000000;
+    color: #a3a3a3;
+    padding: 3px 20px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 49px;
+}
+
+.home__mainFeaturedProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top:13px;
+}
+
+.home__mainFeaturedProjects >h3{
+    background: url(../images/bg-transparent1.png) repeat;
+    color: #A3A3A3;
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 23px;
+    width:940px;
+    text-align: center;
+    padding: 17px 0 10px;
+
+}
+
+.home__mainFeaturedProjects >ul{
+    display: flex;
+}
+
+.home__mainFeaturedProjects >ul>li{
+    list-style: none;
+}
+
+.home__mainFeaturedProjects >ul>li>a>img:hover{
+    opacity: 0.6;
+}
+
+.home__mainOurMission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #630031;
+    margin:-3px;
+    min-height: 168px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    color:white;
+}
+
+.home__mainOurMission >h1{
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.home__mainOurMission > p{
+    font-size:18px;
+}
+
+.home__mainOurMission >p >a{
+    color: white;
+}
+
+.home__mainFeaturedVideoBlog{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    height: 429px;
+    margin-top:50px;
+}
+
+.home__mainFeaturedVideo{
+    margin-right: 50px;
+    position: relative;
+}
+
+.fa-play{
+ position: absolute;
+ top: 50%;
+ left:45%;
+ font-size: 60px;
+ color: gray;
+ opacity: 0.8;
+}
+
+.home__mainFeaturedVideo>h1, .home__mainBlog>h1{
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+
+.home__mainBlog1{
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid lightgray;
+}
+
+.home__mainBlog2{
+    display: flex;
+}
+
+.home__mainBlog1Image>a>img, .home__mainBlog2Image>a>img{
+    margin-right:30px;
+}
+
+.home__mainBlog1Text>h1, .home__mainBlog2Text>h1{
+    color: #a3a3a3;
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.home__mainBlog1Text>p, .home__mainBlog2Text>p{
+    margin-bottom: 15px;
+}
+
+
+.home__mainBlog1Text>a, .home__mainBlog2Text>a{
+    background-color: #3c0f38;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    height: 31px;
+    line-height: 31px;
+    padding: 5px 10px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 120px;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.home__footer{
+    width:auto;
+    height: 84px;
+    color:white;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__footerSocial{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 400px;
+    height: 36px;
+}
+
+.home__footerLeft>h1{
+    
+    font-family: 'Audiowide', cursive;
+    font-weight: lighter;
+}
+
+.fab{
+    font-size:50px;
+    margin-right: 20px;
+}
+
+
+
+
+
