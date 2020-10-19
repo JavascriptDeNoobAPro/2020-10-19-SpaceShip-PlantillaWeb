@@ -20,7 +20,7 @@ body{
     z-index: 3;
 }
 
-.home__header {
+.header {
     background: url(../images/bg-transparent1.png) repeat;
     min-height: 60px;
     width: auto;
@@ -29,7 +29,7 @@ body{
     align-items: center;
 }
 
-.home__navigation > ul {
+.navigation > ul {
     display: flex;
     list-style: none;
     align-items: center;
@@ -38,11 +38,11 @@ body{
     width:80%;
 }
 
-.home__navigation > ul >li{
+.navigation > ul >li{
     margin-left: 24px;
 }
 
-.home__navigation > ul >li>a{
+.navigation > ul >li>a{
     color: #ffffff;
     font-family: Arial;
     font-size: 18px;
@@ -58,7 +58,7 @@ body{
     outline: none;
 }
 
-.home__navigationSelected {
+.navigationSelected {
     background-color: #000000;
     color: #a3a3a3;
 }
